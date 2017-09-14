@@ -1,0 +1,36 @@
+form label, 
+form input {
+	display: block;
+	width: 390px;
+	text-align: center;
+
+
+}
+
+div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	opacity: 0.8;
+	font-family: arial;
+	font-size: 1.5em;
+}
+
+
+body{
+	background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/103_shutterstock_88550854-740px.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+div button {
+	left: 100px;
+	position: absolute;
+	font-size: 1.2em;
+}
