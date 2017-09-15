@@ -1,36 +1,67 @@
 form label, 
 form input {
-	display: block;
-	width: 390px;
-	text-align: center;
-
-
+    display: block;
+    width: 350px;
+    height: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
 }
 
-div {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 400px;
-	height: 400px;
-	transform: translate(-50%, -50%);
-	background-color: white;
-	opacity: 0.8;
-	font-family: arial;
-	font-size: 1.5em;
+form input {
+    border-style: solid;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 700px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.82;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-radius: 5%;
+    padding-left: 20px;
 }
 
 
-body{
-	background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/103_shutterstock_88550854-740px.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	height: 100vh;
+body {
+    background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/103_shutterstock_88550854-740px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 130vh;
 }
 
-div button {
-	left: 100px;
-	position: absolute;
-	font-size: 1.2em;
+button {
+    left: 120px;
+    position: absolute;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-style: none;
+    padding: 20px;
+}
+
+h1 , p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#thankYou {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 }
