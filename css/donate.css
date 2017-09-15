@@ -1,3 +1,23 @@
+header {
+	height: 50px;
+}
+
+header nav ul {
+	list-style-type: none;	
+	float: right;
+}
+
+header nav ul li {	
+	display: inline-block;
+	padding-right: 10px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
 form label, 
 form input {
     display: block;
@@ -27,12 +47,12 @@ form {
 }
 
 
-body {
-    background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/103_shutterstock_88550854-740px.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 130vh;
+body{
+	background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/103_shutterstock_88550854-740px.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 170vh;
 }
 
 button {
